@@ -1,35 +1,43 @@
-<img src="https://camo.githubusercontent.com/069e3ef2850e722ccaef748bf8cdadafeed9fd4a9ee1436daebd7e820f4402a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f666c6578692d636f64696e672e61707073706f742e636f6d2f6f2f64656d706769372d35323066386435662d363364342d343435332d383832322d6462633134396165323766382e6769663f616c743d6d6564696126746f6b656e3d39316330633762322d393363332d343032392d623031312d316138373033633537333064" alt="MasterHead" data-canonical-src="https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/dempgi7-520f8d5f-63d4-4453-8822-dbc149ae27f8.gif?alt=media&amp;token=91c0c7b2-93c3-4029-b011-1a8703c5730d" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
-<h1 align="center">Hi 👋, I'm Yazen Bilal</h1>
-<h3 align="center">A Passionate Full Stack developer</h3>
-<img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+<h1 align="center">Hi, I'm Yazen AbuSharkh 👋</h1>
+<p align="center">Full-Stack Developer • .NET & C# | React & TypeScript | SQL Server</p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=YazenJO&label=Profile%20views&color=0e75b6&style=flat" alt="Yazen Abusharkh" /> </p>
+---
 
+### 🚀 About Me
 
-- Full Stack [DVLD - Driving License Management System](https://github.com/YazenJO/DVLD-Project)
+- 🎓 Computer Science student at **The Hashemite University** (Expected 2027)
+- 💻 I build production-ready web apps with **ASP.NET Core** and **React + TypeScript**
+- 🏆 1st place at the university-level **MZN** competition (Taskalyze)
+- 🧠 Strong C and problem-solving foundation (**42** Common Core — Milestone 1)
+- 📫 Reach me: **yazenbilal2005@gmail.com**
 
-- Data Structure & Object Oriented Programming **.NET**
+### 🛠️ Tech Stack
 
-- 👨‍💻 All of my projects are available at [https://github.com/YazenJO/DVLD-Project](https://github.com/YazenJO/DVLD-Project)
+**Languages:** C# · TypeScript · JavaScript · C++ · C · SQL<br>
+**Backend:** ASP.NET Core · Entity Framework Core · REST APIs · JWT · ADO.NET<br>
+**Frontend:** React · TypeScript · Tailwind CSS · Vite<br>
+**Data:** SQL Server · T-SQL<br>
+**Tools:** Git · Docker · GitHub Actions · Azure · Swagger · Postman
 
-- 📝 I regularly write articles on [Programming](Programming)
+### 📌 Featured Projects
 
-- 💬 Ask me about **C , C++ , C# , JS , MY SQL , OOP ,DATA STRUCTURE ,PROBLEM SOLVING**
+| Project | Description | Tech |
+|---|---|---|
+| **[Online Store](https://github.com/YazenJO/Online-Store)** | Full-stack e-commerce platform with 60+ REST endpoints, JWT auth & admin dashboard | React, TypeScript, ASP.NET Core 9, SQL Server |
+| **[DVLD](https://github.com/YazenJO/DVLD-Project)** | Driving License Management System with 3-tier architecture | C#, SQL Server |
+| **[Programming Advices](https://github.com/YazenJO/Programming-Advices)** | Problem-solving & algorithms practice | C# |
+| **[EF Core](https://github.com/YazenJO/EF-Core)** | My Entity Framework Core learning path | C#, T-SQL |
 
-- 📫 How to reach me **contact.bilalabusharkh5@gmail.com**
+### 📊 GitHub Stats
 
-- ⚡ Fun fact **Programming**
+![Yazen's GitHub stats](https://github-readme-stats.vercel.app/api?username=YazenJO&show_icons=true&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YazenJO&layout=compact&hide_border=true)
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="www.linkedin.com/in/yazen-abusharkh-dev05" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Yazen Abusharkh" height="30" width="40" /></a>
-</p>
+### 🔗 Connect
 
-<h3 align="left">Languages and Tools:</h3>
-</a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a>  </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yazen-abusharkh-0xzr)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:yazenbilal2005@gmail.com)
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=YazenJO&show_icons=true&locale=en&layout=compact" alt="YazenJO" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=YazenJO&show_icons=true&locale=en" alt="YazenJO" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=YazenJO&" alt="YazenJO" /></p>
+<p align="center"><i>Open to new-grad & internship opportunities in backend / full-stack development.</i></p>
