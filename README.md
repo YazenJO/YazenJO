@@ -50,5 +50,3 @@
   <a href="mailto:yazenbilal2005@gmail.com"><b>yazenbilal2005@gmail.com</b></a> &nbsp;·&nbsp;
   CS at The Hashemite University
 </p>
-
-<sub>Every panel on this page is a React component, rendered to SVG with <a href="https://github.com/vercel/satori">Satori</a> and rebuilt daily by GitHub Actions. The numbers come straight from the GitHub GraphQL API, with no third-party stats service. Source in <a href="generator"><code>/generator</code></a>. The render-and-commit loop is adapted from <a href="https://github.com/dbuzatto/gif-terminal">gif-terminal</a>.</sub>
