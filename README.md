@@ -13,7 +13,7 @@
 <a href="https://github.com/Amro-Aladghem/MZN-Hackatoon">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/taskalyze-dark.svg">
-    <img alt="02, first place at the MZN competition, team build. Taskalyze: hiring by proof of work. Companies and universities publish a real task with a time limit, candidates deliver, results are scored and reviewed, and offers go to the people whose results hold up. ASP.NET Core, EF Core, SQL Server, JWT, Cloudinary and Azure Blob." src="assets/taskalyze-light.svg" width="100%">
+    <img alt="02, first place at the MZN competition, live in production, team build. Taskalyze: hiring by proof of work. Companies and universities publish a real task with a time limit, candidates deliver, results are scored and reviewed, and offers go to the people whose results hold up. My part: I refactored the Qdrant vector database integration onto IHttpClientFactory for pooled connections and faster HTTP calls, and delivered a working full-stack platform in C# and ASP.NET Core under hackathon time limits that now runs in production. ASP.NET Core, EF Core, SQL Server, Qdrant, JWT, Cloudinary and Azure Blob." src="assets/taskalyze-light.svg" width="100%">
   </picture>
 </a>
 

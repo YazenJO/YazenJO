@@ -1,14 +1,25 @@
 import type { Theme } from '../theme';
 import { Arrow, Frame, Header, Mono } from './primitives';
 
-export const TASKALYZE_HEIGHT = 520;
+export const TASKALYZE_HEIGHT = 710;
 
 const flow = ['Post a task', 'Timed attempt', 'Scored result', 'Recruiter review', 'Offer'];
+
+const myPart = [
+  {
+    title: 'Faster vector search calls',
+    body: 'Refactored the Qdrant integration onto IHttpClientFactory: pooled connections instead of a client per request.',
+  },
+  {
+    title: 'Shipped under the clock',
+    body: 'Delivered a working full-stack platform in C# and ASP.NET Core within hackathon limits. It now runs in production.',
+  },
+];
 
 export function Taskalyze({ t }: { t: Theme }) {
   return (
     <Frame t={t} height={TASKALYZE_HEIGHT}>
-      <Header t={t} index="02" kicker="Competition" pills={[{ text: '1st place · MZN', solid: true }, { text: 'Team build' }]} />
+      <Header t={t} index="02" kicker="Competition" pills={[{ text: '1st place · MZN', solid: true }, { text: 'Live' }, { text: 'Team build' }]} />
 
       <div style={{ display: 'flex', alignItems: 'baseline', gap: 22, marginTop: 34 }}>
         <div style={{ display: 'flex', fontSize: 64, fontWeight: 700, letterSpacing: -2.5, lineHeight: 1 }}>Taskalyze</div>
@@ -42,8 +53,22 @@ export function Taskalyze({ t }: { t: Theme }) {
         ))}
       </div>
 
+      <div style={{ display: 'flex', marginTop: 34, paddingTop: 24, borderTop: `1px solid ${t.line}` }}>
+        <Mono t={t} size={14} color={t.accent} style={{ width: 150, paddingTop: 4 }}>
+          My part
+        </Mono>
+        <div style={{ display: 'flex', flex: 1, gap: 40 }}>
+          {myPart.map((p) => (
+            <div key={p.title} style={{ display: 'flex', flexDirection: 'column', flex: 1, gap: 8 }}>
+              <div style={{ display: 'flex', fontSize: 22, fontWeight: 600, letterSpacing: -0.4 }}>{p.title}</div>
+              <div style={{ display: 'flex', fontSize: 18, lineHeight: 1.5, color: t.muted }}>{p.body}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+
       <div style={{ display: 'flex', marginTop: 'auto', fontFamily: 'Mono', fontSize: 16, color: t.muted, letterSpacing: 0.5 }}>
-        ASP.NET Core · EF Core · SQL Server · JWT · Cloudinary / Azure Blob
+        ASP.NET Core · EF Core · SQL Server · Qdrant · JWT · Cloudinary / Azure Blob
       </div>
     </Frame>
   );
