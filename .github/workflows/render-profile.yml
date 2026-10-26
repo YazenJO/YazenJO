@@ -6,7 +6,7 @@ name: Render profile panels
 
 on:
   schedule:
-    - cron: '17 5 * * *' # daily, refreshes the activity panel
+    - cron: '17 5 * * *' # daily, refreshes the stats panels
   workflow_dispatch:
   push:
     branches: [main]
@@ -37,9 +37,9 @@ jobs:
         working-directory: generator
         run: npm ci
 
-      - name: Typecheck
+      - name: Typecheck and test
         working-directory: generator
-        run: npm run typecheck
+        run: npm run typecheck && npm test
 
       - name: Render SVGs
         working-directory: generator

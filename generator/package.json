@@ -5,6 +5,7 @@
   "description": "Renders the profile README panels: React components -> Satori -> SVG.",
   "scripts": {
     "render": "tsx src/render.tsx",
+    "test": "tsx --test src/stats.test.ts",
     "typecheck": "tsc --noEmit"
   },
   "engines": {

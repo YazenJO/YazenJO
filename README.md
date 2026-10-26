@@ -35,7 +35,12 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
-  <img alt="Shipping log: GitHub contributions over the last 12 months, refreshed daily." src="assets/activity-light.svg" width="100%">
+  <img alt="Shipping log for the last 12 months: total contributions, days with a contribution, current and longest streak, and a contribution heatmap. Rendered from the GitHub API and refreshed daily." src="assets/activity-light.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footprint-dark.svg">
+  <img alt="Languages across my public repositories by share of code, contributions per month over the last 12 months, and totals for commits, pull requests, public repositories, stars earned, followers and following. Rendered from the GitHub API and refreshed daily." src="assets/footprint-light.svg" width="100%">
 </picture>
 
 <br>
@@ -46,4 +51,4 @@
   CS at The Hashemite University
 </p>
 
-<sub>Every panel on this page is a React component, rendered to SVG with <a href="https://github.com/vercel/satori">Satori</a> and rebuilt daily by GitHub Actions. Source in <a href="generator"><code>/generator</code></a>. The render-and-commit loop is adapted from <a href="https://github.com/dbuzatto/gif-terminal">gif-terminal</a>.</sub>
+<sub>Every panel on this page is a React component, rendered to SVG with <a href="https://github.com/vercel/satori">Satori</a> and rebuilt daily by GitHub Actions. The numbers come straight from the GitHub GraphQL API, with no third-party stats service. Source in <a href="generator"><code>/generator</code></a>. The render-and-commit loop is adapted from <a href="https://github.com/dbuzatto/gif-terminal">gif-terminal</a>.</sub>
