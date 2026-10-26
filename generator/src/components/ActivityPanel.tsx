@@ -13,6 +13,8 @@ function level(count: number, max: number) {
   return Math.min(4, Math.ceil((count / max) * 4));
 }
 
+const days = (n: number) => (n === 1 ? 'day' : 'days');
+
 function Metric({ t, value, unit, label }: { t: Theme; value: string; unit?: string; label: string }) {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', flex: 1, gap: 8 }}>
@@ -58,8 +60,8 @@ export function ActivityPanel({ t, stats }: { t: Theme; stats: Stats }) {
       <div style={{ display: 'flex', gap: 40, marginTop: 36 }}>
         <Metric t={t} value={fmt(stats.total)} label="contributions" />
         <Metric t={t} value={fmt(stats.activeDays)} unit={`/ ${stats.days.length}`} label="days with a contribution" />
-        <Metric t={t} value={fmt(stats.currentStreak)} unit="days" label="current streak" />
-        <Metric t={t} value={fmt(stats.longestStreak)} unit="days" label="longest streak" />
+        <Metric t={t} value={fmt(stats.currentStreak)} unit={days(stats.currentStreak)} label="current streak" />
+        <Metric t={t} value={fmt(stats.longestStreak)} unit={days(stats.longestStreak)} label="longest streak" />
       </div>
 
       <div style={{ display: 'flex', flexDirection: 'column', marginTop: 'auto' }}>
