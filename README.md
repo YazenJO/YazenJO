@@ -1,43 +1,49 @@
-<h1 align="center">Hi, I'm Yazen AbuSharkh 👋</h1>
-<p align="center">Full-Stack Developer • .NET & C# | React & TypeScript | SQL Server</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img alt="Yazen AbuSharkh, full-stack engineer. I build the whole thing. Domain model, API, interface, deployment: I take a product from an empty repository to production, and I own every layer on the way. Stack: .NET, React, SQL Server. Now: shipping RAHA." src="assets/hero-light.svg" width="100%">
+</picture>
 
----
+<br>
 
-### 🚀 About Me
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/raha-dark.svg">
+  <img alt="01, flagship, solo build. RAHA: a two-sided farm and chalet booking marketplace for Jordan. Guests search, book and review stays; hosts run listings, calendars, pricing and earnings; admins approve and moderate. Clean Architecture on ASP.NET Core with a React and TypeScript client, 160+ REST endpoints, three roles, Arabic and English with full RTL, deployed on Azure. Built with the Result pattern, domain events, optimistic concurrency, refresh-token rotation with reuse detection, and tiered rate limiting." src="assets/raha-light.svg" width="100%">
+</picture>
 
-- 🎓 Computer Science student at **The Hashemite University** (Expected 2027)
-- 💻 I build production-ready web apps with **ASP.NET Core** and **React + TypeScript**
-- 🏆 1st place at the university-level **MZN** competition (Taskalyze)
-- 🧠 Strong C and problem-solving foundation (**42** Common Core — Milestone 1)
-- 📫 Reach me: **yazenbilal2005@gmail.com**
+<a href="https://github.com/Amro-Aladghem/MZN-Hackatoon">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/taskalyze-dark.svg">
+    <img alt="02, first place at the MZN competition, team build. Taskalyze: hiring by proof of work. Companies and universities publish a real task with a time limit, candidates deliver, results are scored and reviewed, and offers go to the people whose results hold up. ASP.NET Core, EF Core, SQL Server, JWT, Cloudinary and Azure Blob." src="assets/taskalyze-light.svg" width="100%">
+  </picture>
+</a>
 
-### 🛠️ Tech Stack
+<br>
 
-**Languages:** C# · TypeScript · JavaScript · C++ · C · SQL<br>
-**Backend:** ASP.NET Core · Entity Framework Core · REST APIs · JWT · ADO.NET<br>
-**Frontend:** React · TypeScript · Tailwind CSS · Vite<br>
-**Data:** SQL Server · T-SQL<br>
-**Tools:** Git · Docker · GitHub Actions · Azure · Swagger · Postman
+**Also built** &nbsp;·&nbsp; [**Online Store**](https://github.com/YazenJO/Online-Store) — React 19 storefront and admin dashboard on an ASP.NET Core 9 API with role-based JWT auth &nbsp;·&nbsp; [**DVLD**](https://github.com/YazenJO/DVLD-Project) — driving-licence management system, three-tier C# on SQL Server &nbsp;·&nbsp; [**42**](https://github.com/YazenJO/42) — C, from the 42 Common Core
 
-### 📌 Featured Projects
+<br>
 
-| Project | Description | Tech |
-|---|---|---|
-| **[Online Store](https://github.com/YazenJO/Online-Store)** | Full-stack e-commerce platform with 60+ REST endpoints, JWT auth & admin dashboard | React, TypeScript, ASP.NET Core 9, SQL Server |
-| **[DVLD](https://github.com/YazenJO/DVLD-Project)** | Driving License Management System with 3-tier architecture | C#, SQL Server |
-| **[Programming Advices](https://github.com/YazenJO/Programming-Advices)** | Problem-solving & algorithms practice | C# |
-| **[EF Core](https://github.com/YazenJO/EF-Core)** | My Entity Framework Core learning path | C#, T-SQL |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img alt="The stack, by layer. Interface: React, TypeScript, Tailwind CSS, Vite. API: ASP.NET Core, REST, JWT, FluentValidation. Domain: Clean Architecture, DDD, domain events. Data: Entity Framework Core, SQL Server, T-SQL. Ship: Azure, GitHub Actions, Docker. Roots: C and C++ from the 42 Common Core." src="assets/stack-light.svg" width="100%">
+</picture>
 
-### 📊 GitHub Stats
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/principles-dark.svg">
+  <img alt="How I operate. One: own the outcome. Not the ticket, not the layer; if it ships with my name on it, all of it is mine. Two: architecture is a product decision; the boundaries I draw today decide what we can ship next month. Three: deployed or it didn't happen; done means running in production, not working on my machine." src="assets/principles-light.svg" width="100%">
+</picture>
 
-![Yazen's GitHub stats](https://github-readme-stats.vercel.app/api?username=YazenJO&show_icons=true&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YazenJO&layout=compact&hide_border=true)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+  <img alt="Shipping log: GitHub contributions over the last 12 months, refreshed daily." src="assets/activity-light.svg" width="100%">
+</picture>
 
-### 🔗 Connect
+<br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yazen-abusharkh-0xzr)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:yazenbilal2005@gmail.com)
+<p>
+  <a href="https://www.linkedin.com/in/yazen-abusharkh-0xzr"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+  <a href="mailto:yazenbilal2005@gmail.com"><b>yazenbilal2005@gmail.com</b></a> &nbsp;·&nbsp;
+  CS at The Hashemite University
+</p>
 
----
-
-<p align="center"><i>Open to new-grad & internship opportunities in backend / full-stack development.</i></p>
+<sub>Every panel on this page is a React component, rendered to SVG with <a href="https://github.com/vercel/satori">Satori</a> and rebuilt daily by GitHub Actions. Source in <a href="generator"><code>/generator</code></a>. The render-and-commit loop is adapted from <a href="https://github.com/dbuzatto/gif-terminal">gif-terminal</a>.</sub>

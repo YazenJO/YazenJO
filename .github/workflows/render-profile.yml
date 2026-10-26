@@ -1,0 +1,59 @@
+name: Render profile panels
+
+# Same loop as dbuzatto/gif-terminal: generate the visuals in CI, commit them
+# back, and let the README point at the committed files. The difference is
+# the renderer: React components -> Satori -> SVG instead of Python -> GIF.
+
+on:
+  schedule:
+    - cron: '17 5 * * *' # daily, refreshes the activity panel
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'generator/**'
+      - '.github/workflows/render-profile.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render-profile
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: generator/package-lock.json
+
+      - name: Install
+        working-directory: generator
+        run: npm ci
+
+      - name: Typecheck
+        working-directory: generator
+        run: npm run typecheck
+
+      - name: Render SVGs
+        working-directory: generator
+        env:
+          # Optional PAT (read:user) so private-repo contributions are counted;
+          # falls back to the workflow token, which sees public activity.
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+          PROFILE_LOGIN: ${{ github.repository_owner }}
+        run: npm run render
+
+      - name: Commit if changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add assets
+          git diff --staged --quiet || (git commit -m "Render profile panels [skip ci]" && git push)
